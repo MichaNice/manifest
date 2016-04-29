@@ -3,6 +3,8 @@
   <notice>Your sources have been sync'd successfully.</notice>
   <remote fetch="https://chromium.googlesource.com/" name="cros" review="gerrit.chromium.org/gerrit"/>
   <remote fetch=".." name="github"/>
+  <remote fetch="https://github.com/linux-on-power" name="lop"/>
+  <remote fetch="https://github.com/houstar" name="leno"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
@@ -15,7 +17,7 @@
   <project groups="minilayout" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" remote="cros" revision="bdc1d380acd88d4bfaf47265008091483b0d614e" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/baselayout" path="src/third_party/baselayout" revision="139da2652de491ae70371413b45e189fe8e727f6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/bootengine" path="src/third_party/bootengine" revision="b9e498815c61e31ac347430e0e957651d7d29f37" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/chromite" path="chromite" revision="f3db21adb76ea48390c5bacc6ae4b70f1037f657" upstream="refs/heads/master">
+  <project groups="minilayout" name="chromite" path="chromite" remote="leno" upstream="refs/heads/master">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
@@ -38,9 +40,9 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="10d464e276038b428eb60397cb7657d0640f4bbc" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="85f8b48da25fd6e3c36a9aa1f7d90c19078777ab" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="7a7d02fd13775e6cc6416b819ce981f1291d9221" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="gentoo" path="src/third_party/portage-stable" remote="lop" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="6f6d04c805d226e5cf6c89a0951839a59526f437" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="253590ab99f5864ff99a5d02d3773c14fdedb298" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="scripts" path="src/scripts" remote="leno" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="a96246842fe43d410cb8a69daef0d96c8fd56a21" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>

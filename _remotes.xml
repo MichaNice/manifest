@@ -5,6 +5,10 @@
            review="gerrit.chromium.org/gerrit" />
   <remote  name="github"
            fetch=".." />
+  <remote  name="lop"
+           fetch="https://github.com/linux-on-power" />
+  <remote  name="leno"
+           fetch="https://github.com/houstar" />
   <remote  name="private"
            fetch="ssh://git@github.com" />
 </manifest>
