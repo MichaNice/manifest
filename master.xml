@@ -25,6 +25,9 @@ Your sources have been sync'd successfully.
   <project path="src/platform/factory-utils"
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
+  <project path="src/third_party/ktop"
+           groups="minilayout" remote="cros"
+           name="chromiumos/third_party/ktop" />
 
   <project path="src/scripts" name="scripts"
            groups="minilayout" remote="leno" />
