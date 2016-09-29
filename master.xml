@@ -35,7 +35,11 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/portage-stable"
            name="gentoo"
            groups="minilayout"
-	   remote="lop" />
+	   remote="gentoo" />
+  <project path="src/third_party/ppc64le-overlay"
+           name="proj/ppc64le"
+           groups="minilayout"
+	   remote="gentoo" />
   <project path="src/third_party/coreos-overlay"
            name="coreos-overlay"
            groups="minilayout" 

@@ -41,7 +41,8 @@
   <project groups="minilayout" name="coreos/mantle" path="src/third_party/mantle" revision="10d464e276038b428eb60397cb7657d0640f4bbc" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="85f8b48da25fd6e3c36a9aa1f7d90c19078777ab" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="gentoo" path="src/third_party/portage-stable" remote="lop" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="gentoo" path="src/third_party/portage-stable" remote="gentoo" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="proj/ppc64le" path="src/third_party/ppc64le-overlay" remote="gentoo" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="6f6d04c805d226e5cf6c89a0951839a59526f437" upstream="refs/heads/master"/>
   <project groups="minilayout" name="scripts" path="src/scripts" remote="leno" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
