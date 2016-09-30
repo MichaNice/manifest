@@ -39,8 +39,9 @@
   <project groups="minilayout" name="coreos/mayday" path="src/third_party/mayday" revision="5e2b4bcb0743ff0105cd193a8d9e4ddc78088153" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="790cf38eeaab3a433fd6b678354f542748fb0eb7" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="ppc64le" path="src/third_party/ppc64le-overlay" remote="leno" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="53825ed6d0e838032c7bdff8aa3686d2ae9defe7" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="coreos/scripts" path="src/scripts" revision="29e35fe28ae5b15934694f9181fea4547378c368" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="scripts" path="src/scripts" remote="leno" upstream="refs/heads/ppc64le"/>
   <project groups="minilayout" name="coreos/sdnotify-proxy" path="src/third_party/sdnotify-proxy" revision="bfd0269267d91f3bbe89db49ec8ea8903ae8aa3c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/seismograph" path="src/third_party/seismograph" revision="db243fb040ef52b36e9e4bc835f5c11eec89ff2d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/shim" path="src/third_party/shim" revision="03a1513b0985fd682b13a8d29fe3f1314a704c66" upstream="refs/heads/master"/>

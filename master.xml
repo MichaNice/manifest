@@ -26,11 +26,14 @@ Your sources have been sync'd successfully.
            name="chromiumos/platform/factory-utils"
            groups="minilayout" remote="cros" />
 
-  <project path="src/scripts" name="coreos/scripts"
-           groups="minilayout" />
+  <project path="src/scripts" name="scripts" remote="leno"
+           groups="minilayout" revision="refs/heads/ppc64le" />
 
   <project path="src/third_party/portage-stable"
            name="coreos/portage-stable"
+           groups="minilayout" />
+  <project path="src/third_party/ppc64le-overlay" remote="leno"
+           name="ppc64le"
            groups="minilayout" />
   <project path="src/third_party/coreos-overlay"
            name="coreos/coreos-overlay"
